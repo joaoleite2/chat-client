@@ -1,22 +1,30 @@
+
 # Real-Time Chat
 
 ![Chat App](https://github.com/joaoleite2/chat-client/blob/main/imgs/chat.gif)
 
 ## Description
-This is a real-time chat project developed with Node.js and React. Using Socket.IO, I implemented real-time communication between the frontend and backend.
+Welcome to the Real-Time Chat application! This project demonstrates my skills in building a full-stack web application with real-time communication using modern web technologies.
 
-### Features
-- Choose a username and chat room name.
-- Automatic creation of chat rooms if the provided name does not exist.
-- Real-time messaging between users in the same room.
+## Features
+- **User Authentication:** Choose a unique username and chat room.
+- **Dynamic Room Creation:** Automatically create chat rooms if they do not exist.
+- **Real-Time Messaging:** Experience seamless messaging between users in the same room.
 
 ## Tech Stack
-- **Frontend:** ReactJS
-- **Backend:** NodeJS
+- **Frontend:** ReactJS, CSS
+- **Backend:** NodeJS, Express
 - **Real-Time Communication:** Socket.IO
 
-## How to Use
-1. Clone the repository:
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- Node.js
+- npm (Node Package Manager)
+
+### Frontend Setup
+1. Clone the frontend repository:
     ```bash
     git clone https://github.com/joaoleite2/chat-client.git
     ```
@@ -28,24 +36,49 @@ This is a real-time chat project developed with Node.js and React. Using Socket.
     ```bash
     npm install
     ```
-4. Start the server:
+4. Start the development server:
     ```bash
     npm start
     ```
 
-## Demo
-Below are some gifs demonstrating the real-time chat functionality:
+### Backend Setup
+1. Clone the backend repository:
+    ```bash
+    git clone https://github.com/joaoleite2/server-chat.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd server-chat
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the backend server:
+    ```bash
+    npm start
+    ```
 
-- [![Chat Start](https://github.com/joaoleite2/chat-client/blob/main/imgs/start.gif)](https://github.com/joaoleite2/chat-client/blob/main/imgs/start.gif)
-- [![Chat in Action](https://github.com/joaoleite2/chat-client/blob/main/imgs/chat.gif)](https://github.com/joaoleite2/chat-client/blob/main/imgs/chat.gif)
+## Running the Application
+Ensure both the frontend and backend servers are running. Open your browser and navigate to `http://localhost:3000` to start using the chat application.
+
+## Demo
+Here are some gifs demonstrating the real-time chat functionality:
+
+- ![Chat Start](https://github.com/joaoleite2/chat-client/blob/main/imgs/start.gif)
+- ![Chat in Action](https://github.com/joaoleite2/chat-client/blob/main/imgs/chat.gif)
 
 ## Contribution
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to open issues or submit pull requests.
 
 ## Contact
-For more information or questions, contact:
-- LinkedIn: [João Henrique Leite](https://www.linkedin.com/in/joaohleite)
+For more information or questions, contact me via LinkedIn:
+- [João Henrique Leite](https://www.linkedin.com/in/joaohleite)
 
 ---
 
-**Note:** This project was developed to enhance my web development and real-time communication skills. Any feedback is greatly appreciated!
+**Note:** This project was developed to enhance my skills in web development and real-time communication. Any feedback is greatly appreciated!
+
+---
+
+link do backend: [Real-Time Chat Backend](https://github.com/joaoleite2/server-chat)
